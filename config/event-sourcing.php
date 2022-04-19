@@ -7,7 +7,7 @@ return [
      * will be registered to Projectionist automatically.
      */
     'auto_discover_projectors_and_reactors' => [
-        // app()->path('Domain'),
+        app()->path('Domain/App'),
     ],
 
     /*
@@ -22,7 +22,7 @@ return [
      * Projectors can be registered in this array or a service provider.
      */
     'projectors' => [
-        \Domain\App\Projectors\SampleProjector::class,
+        // \Domain\App\Projectors\SampleProjector::class,
         // App\Projectors\YourProjector::class
     ],
 
@@ -32,7 +32,7 @@ return [
      * Reactors can be registered in this array or a service provider.
      */
     'reactors' => [
-        \Domain\App\Reactors\SampleReactor::class,
+        // \Domain\App\Reactors\SampleReactor::class,
         // App\Reactors\YourReactor::class
     ],
 
