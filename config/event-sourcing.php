@@ -7,7 +7,7 @@ return [
      * will be registered to Projectionist automatically.
      */
     'auto_discover_projectors_and_reactors' => [
-        app()->path('Domain'),
+        // app()->path('Domain'),
     ],
 
     /*
